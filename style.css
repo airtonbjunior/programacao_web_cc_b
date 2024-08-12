@@ -9,8 +9,6 @@
 }
 
 .rodape {
-    color: red;
-    border: 1px dotted;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -19,6 +17,7 @@
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
+    background-color: #ccc;
 }
 
 .entradas-usuario {
@@ -34,4 +33,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+input, button {
+    display: block;
+    padding: 2px;
+    margin: 5px;
 }
